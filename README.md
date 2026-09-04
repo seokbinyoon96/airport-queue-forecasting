@@ -51,3 +51,25 @@ evaluate_on_test("./checkpoints/best_model.pt", test_loader)
 
 Data loading / preprocessing code is not included here — plug in your own `DataLoader`
 that yields batches in the format described above.
+
+## Citation
+
+If you find this repository useful for your research, please cite the following work:
+
+```bibtex
+@article{lee2026airport_arxiv,
+  title={Airport Terminal Passenger Queue Forecasting for Departure Gates and Security Checkpoints},
+  author={Lee, Juhwan and Yoon, Seokbin and Lee, Keumjin and Baik, Hojong and Jung, Seyeon},
+  journal={arXiv preprint arXiv:2606.07622},
+  year={2026}
+}
+
+@inproceedings{lee2026airport_dasc,
+  title={Airport Terminal Passenger Queue Forecasting for Departure Gates and Security Checkpoints},
+  author={Lee, Juhwan and Yoon, Seokbin and Lee, Keumjin and Baik, Hojong and Jung, Seyeon},
+  booktitle={2026 AIAA DATC/IEEE 45th Digital Avionics Systems Conference (DASC)},
+  pages={1--10},
+  year={2026},
+  organization={IEEE}
+}
+```
